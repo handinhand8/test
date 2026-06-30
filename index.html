@@ -1,0 +1,275 @@
+
+<html xmlns="">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Angel Gyaurov | graphic designer | portfolio Ангел Гяуров | графичен дизайнер | портфолио">
+
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="isotope.pkgd.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<title>AG | portfolio</title>
+<link rel="shortcut icon" href="images/favicon.ico" />
+
+
+<style type="text/css">
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+
+a img {
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	background-color: #red;
+	margin: 0 auto; 
+}
+
+
+.header {
+	height: 135px;
+}
+
+
+
+.content {
+	height: 80%;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+	min-height: 80%;
+}
+
+
+.footer {
+	padding: 20px 0;
+	position: relative;
+
+}
+
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#apDiv1 {
+	position: relative;
+	width: 252px;
+	height: 13px;
+	z-index: 1;
+	left: 324px;
+}
+#apDiv2 {
+	position: relative;
+	width: 160px;
+	height: 47px;
+	z-index: 1;
+	left: 20px;
+	top: 58px;
+}
+#apDiv3 {
+	position: relative;
+	width: 44px;
+	height: 57px;
+	z-index: 2;
+	left: 844px;
+	top: 0px;
+}
+#apDiv4 {
+	position: relative;
+	width: 43px;
+	height: 55px;
+	z-index: 3;
+	left: 911px;
+	top: -55px;
+}
+div#preloaded-images {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+<div class="header">
+    <div id="apDiv2"><a href="index.html"><img src="images/web_09.gif" width="160" height="47" /></a></div> 
+    <div id="apDiv3"><a href="cv-angel-gyaurov.pdf" target="_blank"><img src="images/web_03.gif" onmouseover="this.src='images/webov_03.gif'" onmouseout="this.src='images/web_03.gif'" /></a></div>
+    <div id="apDiv4"> <a href="mailto:angel@gyaurov.com" target="_blank"><img src="images/web_06.gif" onmouseover="this.src='images/webov_06.gif'" onmouseout="this.src='images/web_06.gif'" /></a>
+    </div>
+  </div>
+  <div class="content">
+
+
+	  
+	  
+
+  <div class="grid">
+  <!-- width of .grid-sizer used for columnWidth -->
+  <div class="grid-sizer"></div>
+  <div class="grid-item1">test 1</div>
+  <div class="grid-item grid-item--width2">test2</div>
+  <div class="grid-item">  </div>
+
+  <div class="grid-item">tesssst4</div>
+
+</div>
+	
+	  
+	  
+	  
+
+ <div class="isotope">
+	
+  <div class="grid-sizer"></div>
+  <div class="grid-item"></div>
+
+	
+  <div class="item"></div>
+  <div class="item a"></div>
+  <div class="item"></div>
+  <div class="item c"></div>
+  <div class="item d"></div>
+  <div class="item e"></div>
+  <div class="item f"></div>
+  <div class="item g"></div>
+  <div class="item n"></div>
+  
+  <div class="item h"></div>
+  
+  <div class="item j"></div>
+  
+  <div class="item n"></div>
+  <div class="item m"></div>
+  
+  
+  <div class="item i"></div>
+  <div class="item k"></div>
+  <div class="item l"></div>
+</div>
+
+
+<script type="text/javascript">
+// external js:
+// https://isotope.metafizzy.co/beta/isotope.pkgd.js
+
+
+$('.grid').isotope({
+  // set itemSelector so .grid-sizer is not used in layout
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  masonry: {
+    // use element for option
+    columnWidth: '.grid-sizer'
+  }
+})	
+	
+	
+	
+$( function() {
+
+  var $container = $('.isotope').isotope({
+    itemSelector: '.item',
+    masonry: {
+      columnWidth: 100
+    }
+  });
+
+  $container.on( 'click', '.item', function() {
+    // change size of item by toggling gigante class
+    $( this ).toggleClass('gigante');
+    $container.isotope('layout');
+  });
+  
+});
+</script>
+
+</div>
+  <div class="footer">
+    <div id="apDiv1"><img src="images/web_35.gif" alt="contact" width="352" height="13" usemap="#Map" border="0" />
+      <map name="Map" id="Map">
+        <area shape="rect" coords="208,-7,322,12" href="mailto:angel@gyaurov.com" target="_blank" alt="angel@gyauorov.com" />
+        <area shape="rect" coords="335,1,356,12" href="cv-angel-gyaurov.pdf" target="_blank" alt="CV" />
+      </map>
+    </div>
+  </div>
+</div>
+
+  <div id="preloaded-images">
+   <img src="images/webov_15.gif" width="1" height="1" alt="Image 01" />
+   <img src="images/webov_16.gif" width="1" height="1" alt="Image 02" />
+   <img src="images/webov_17.jpg" width="1" height="1" alt="Image 03" />
+   <img src="images/webov_18.jpg" width="1" height="1" alt="Image 04" />
+   <img src="images/webov_24.jpg" width="1" height="1" alt="Image 05" />
+   <img src="images/webov_20.gif" width="1" height="1" alt="Image 06" />
+   <img src="images/webov_21.gif" width="1" height="1" alt="Image 07" />
+   <img src="images/webov_26.jpg" width="1" height="1" alt="Image 08" />
+   <img src="images/webov_19.gif" width="1" height="1" alt="Image 09" />
+   <img src="images/webov_25.jpg" width="1" height="1" alt="Image 10" />
+   <img src="images/webov_27.gif" width="1" height="1" alt="Image 11" />
+   <img src="images/webov_29.gif" width="1" height="1" alt="Image 12" />
+   <img src="images/webov_30.jpg" width="1" height="1" alt="Image 13" />
+   <img src="images/webov_06.gif" width="1" height="1" alt="Image 14" />
+   <img src="images/webov_03.gif" width="1" height="1" alt="Image 15" />
+   <img src="images/project10.gif" width="1" height="1" alt="Image 16" />
+   <img src="images/project06.jpg" width="1" height="1" alt="Image 17" />
+   <img src="images/project02.jpg" width="1" height="1" alt="Image 18" />
+   <img src="images/project03.jpg" width="1" height="1" alt="Image 19" />
+   <img src="images/project04.jpg" width="1" height="1" alt="Image 20" />
+   <img src="images/project11.gif" width="1" height="1" alt="Image 21" />
+   <img src="images/project12.gif" width="1" height="1" alt="Image 22" />
+   <img src="images/project08.jpg" width="1" height="1" alt="Image 23" />
+   <img src="images/project07.jpg" width="1" height="1" alt="Image 24" />
+   <img src="images/project05.jpg" width="1" height="1" alt="Image 25" />
+   <img src="images/project13.gif" width="1" height="1" alt="Image 26" />
+   <img src="images/project01.jpg" width="1" height="1" alt="Image 27" />
+   <img src="images/project09.jpg" width="1" height="1" alt="Image 28" />
+ 
+</div>
+</body>
+</html>

@@ -1,0 +1,306 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+/* ---- isotope ---- */
+
+.isotope {
+	background: #eee;
+	max-width: 100%;
+}
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 20%;  content: url(images/web_26.gif);}
+/* 2 columns */
+.grid-item1 { width: 20%; content: url(images/web_27.gif);  }
+
+.grid-item--width2 { width: 40%; 	content: url(images/web_28.gif);
+}
+.grid-item--width100 { width: 100%; content: url(images/web_28.gif); }
+
+/* ---- .item ---- */
+
+
+
+
+.item {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: #A38E8F;
+	background-image: url(images/web_15.gif);
+}
+
+.item.width2 { width: 200px; }
+.item.height2 { height: 200px; }
+
+.item:hover {
+	background-image: url(images/webov_15.gif);
+	cursor: pointer;
+}
+
+.item.gigante {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/project10.gif);
+}
+
+.item.a {
+  float: left;
+  width: 20%;
+  height: 20%;
+  background-image: url(images/web_16.gif);
+}
+
+.item.a:hover {
+	cursor: pointer;
+	background-image: url(images/webov_16.gif);
+}
+
+.item.a.gigante {
+  width: 600px;
+  height: 1700px;
+  background-image: url(images/project06.jpg);
+}
+
+.item.b {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background-image: url(images/web_17.gif);
+}
+
+.item.b:hover {
+	cursor: pointer;
+	background-image: url(images/webov_17.jpg);
+}
+
+.item.b.gigante {
+  width: 500px;
+  height: 1700px;
+  background-image: url(images/project02.jpg);
+}
+
+.item.c {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-image: url(images/web_18.gif);
+}
+
+.item.c:hover {
+	cursor: pointer;
+	background-image: url(images/webov_18.jpg);
+}
+
+.item.c.gigante {
+  width: 1000px;
+  height: 800px;
+  background-image: url(images/project03.jpg);
+}
+
+.item.d {
+	float: left;
+	width: 100px;
+	height: 200px;
+	background-image: url(images/web_24.gif);
+}
+
+.item.d:hover {
+	cursor: pointer;
+	background-image: url(images/webov_24.jpg);
+}
+
+.item.d.gigante {
+	width: 1000px;
+	height: 800px;
+	background-image: url(images/project04.jpg);
+	float: none;
+}
+
+.item.e {
+	width: 100px;
+	height: 100px;
+	background-image: url(images/web_20.gif);
+}
+
+.item.e:hover {
+	cursor: pointer;
+	background-image: url(images/webov_20.gif);
+}
+
+.item.e.gigante {
+  width: 200px;
+  height: 100px;
+  background-image: url(images/project11.gif);
+}
+
+.item.f {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-image: url(images/web_21.gif);
+}
+
+.item.f:hover {
+	cursor: pointer;
+	background-image: url(images/webov_21.gif);
+}
+
+.item.f.gigante {
+	
+  width: 200px;
+  height: 100px;
+  background-image: url(images/project12.gif);
+}
+
+.item.g {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background-image: url(images/web_26.gif);
+}
+
+.item.g:hover {
+	cursor: pointer;
+	background-image: url(images/webov_26.jpg);
+}
+
+.item.g.gigante {
+	width: 1000px;
+	height: 300px;
+	background-image: url(images/project08.jpg);
+}
+
+.item.h {
+	float: left;
+	width: 100px;
+	height: 200px;
+	background-image: url(images/web_19.gif);
+}
+
+.item.h:hover {
+	cursor: pointer;
+	background-image: url(images/webov_19.gif);
+}
+
+.item.h.gigante {
+	width: 1000px;
+	height: 400px;
+	background-image: url(images/project07.jpg);
+}
+
+.item.i {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-image: url(images/web_25.gif);
+}
+
+.item.i:hover {
+	cursor: pointer;
+	background-image: url(images/webov_25.jpg);
+}
+
+.item.i.gigante {
+	width: 300px;
+	height: 200px;
+	background-image: url(images/project05.jpg);
+}
+
+.item.j {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-image: url(images/web_27.gif);
+}
+
+.item.j:hover {
+	cursor: pointer;
+	background-image: url(images/webov_27.gif);
+}
+
+.item.j.gigante {
+	width: 200px;
+	height: 100px;
+	background-image: url(images/project13.gif);
+}
+
+.item.k {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-image: url(images/web_28.gif);
+}
+
+.item.k:hover {
+	cursor: pointer;
+	background-image: url(images/webov_29.gif);
+}
+
+.item.k.gigante {
+	width: 1000px;
+	height: 1100px;
+	background-image: url(images/project01.jpg);
+}
+
+.item.l {
+	float: right;
+	width: 200px;
+	height: 100px;
+	background-image: url(images/web_29.gif);
+}
+
+.item.l:hover {
+	cursor: pointer;
+	background-image: url(images/webov_30.jpg);
+}
+
+.item.l.gigante {
+	width: 1000px;
+	height: 600px;
+	background-image: url(images/project09.jpg);
+}
+
+.item.m {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-image: url(images/spacer_big.gif);
+	cursor: default;
+}
+.item.m:hover {
+	cursor: defaulg;
+	
+}	
+
+.item.n {
+	float: left;
+	width: 100px;
+	height: 100px;
+	cursor: default;
+	background-image: url(none);
+}
+.item.n:hover {
+    cursor: defaulg;
+    color: #232;
+}	
+
+
